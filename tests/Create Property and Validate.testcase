@@ -162,7 +162,7 @@
                 <argument id="fieldAssertions">
                   <value class="valueList" mutable="Mutable">
                     <uiFieldAssertion resultName="Name">
-                      <fieldLocator uri="ui:locator?name=Name&amp;binding=sf%3Aui%3Abinding%3Aobject%3Ffield%3DName%26object%3DProperty__c"/>
+                      <fieldLocator uri="ui:locator?binding=sf%3Aui%3Abinding%3Aobject%3Ffield%3DName%26object%3DProperty__c&amp;name=Name"/>
                       <attributeAssertions>
                         <uiAttributeAssertion attributeName="value" comparisonType="EqualTo">
                           <value class="variable">
@@ -187,7 +187,7 @@
                   <value class="value" valueClass="string">Test</value>
                 </argument>
                 <argument id="captureAfter">
-                  <value class="value" valueClass="string">false</value>
+                  <value class="value" valueClass="string">true</value>
                 </argument>
                 <argument id="beforeWait">
                   <value class="uiWait" uri="NoWait"/>
@@ -211,7 +211,7 @@
     </apiCall>
   </steps>
   <associations>
-    <association assocationType="TM.TEST_CASE" connectionId="504abe66-21ec-4a71-85ba-cdf9a374ba29" entityKey="a0JKA000001Q7an2AC" lastUploadedDateTime="2025-09-02T18:55:15Z">
+    <association assocationType="TM.TEST_CASE" connectionId="504abe66-21ec-4a71-85ba-cdf9a374ba29" entityKey="a0JKA000001Q7an2AC" lastModifiedDateTime="2025-09-02T21:11:41Z" lastUploadedDateTime="2025-09-02T21:11:50Z">
       <metadataCoverage>
         <stepMetadataCoverage linkedId="1" value="uiApplicationName=Dreamhouse"/>
         <stepMetadataCoverage linkedId="9" value="object=Property__c&amp;fields=Name"/>
