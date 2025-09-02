@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testPlanInstance guid="a4c488a0-6566-4068-8d7d-58fd2749b27c" testCaseId="1b4416e2-9cc0-4278-ba6a-b4b8a4677495" testCasePath="tests/Create Property and Validate.testcase">
+  <planSettings/>
+  <planFeatures/>
+  <associations>
+    <association assocationType="TM.TEST_SUITE_CASE" connectionId="504abe66-21ec-4a71-85ba-cdf9a374ba29" entityKey="a0UKA000000ceS02AI"/>
+  </associations>
+</testPlanInstance>

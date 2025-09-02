@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testProject guid="a5cc8711-5226-43ee-ad6a-d91e13e4d7c6" secretsEncryption="JASYPT" selectedBrowserProviderDeviceName="Full Screen" selectedBrowserProviderName="Desktop">
+  <title>/CopadoProject/.testproject</title>
+  <configPath>config</configPath>
+  <testsPath>tests</testsPath>
+  <testPlansPath>plans</testPlansPath>
+  <templatesPath>templates</templatesPath>
+  <sourcePath>src</sourcePath>
+  <secureStoragePath>.secrets</secureStoragePath>
+  <browserDebugPort>0</browserDebugPort>
+  <environments>
+    <environment guid="b0991dc7-edac-4b8c-94f6-be73c1bcd617" name="DEV">
+      <associations>
+        <association assocationType="TM.ENVIRONMENT" connectionId="504abe66-21ec-4a71-85ba-cdf9a374ba29" entityKey="a0BKA000000Taqr2AC"/>
+      </associations>
+    </environment>
+    <environment guid="16c4c816-8643-4133-ae9d-adf2abf23e2e" name="QA">
+      <associations>
+        <association assocationType="TM.ENVIRONMENT" connectionId="504abe66-21ec-4a71-85ba-cdf9a374ba29" entityKey="a0B5p00000xzvBGEAY"/>
+      </associations>
+    </environment>
+    <environment guid="c19d756c-7710-484b-ae82-30494b50bdbc" name="Production">
+      <associations>
+        <association assocationType="TM.ENVIRONMENT" connectionId="504abe66-21ec-4a71-85ba-cdf9a374ba29" entityKey="a0B5p00000xzvBHEAY"/>
+      </associations>
+    </environment>
+  </environments>
+  <connectionClasses>
+    <connectionClass name="sf">
+      <connections>
+        <connection id="11d15712-43a6-43f7-b550-47ccbf6c2691" name="Admin">
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="12e913f1-cb88-4115-8aa2-b0c7ec6e4d2f" url="sf:user=demo@provartesting.com;password={password};environment=PROD_DEV;lightningMode=true"/>
+            <connectionUrl envId="b0991dc7-edac-4b8c-94f6-be73c1bcd617" envName="DEV" secureStorageNodeId="96476a21-e53e-4240-8837-fffd1a71da05" url="sf:user=demo@provartesting.com.dev;password={password};environment=SANDBOX;lightningMode=true"/>
+            <connectionUrl envId="16c4c816-8643-4133-ae9d-adf2abf23e2e" envName="QA" secureStorageNodeId="06fa476b-93d6-4a51-9d62-088efc3a4476" url="sf:user=demo@provartesting.com.qa;password={password};environment=SANDBOX;lightningMode=true"/>
+            <connectionUrl envId="c19d756c-7710-484b-ae82-30494b50bdbc" envName="Production" secureStorageNodeId="bbd4c021-b0ac-46dc-a910-9e051f547a7f" url="sf:user=demo@provartesting.com;password={password};environment=PROD_DEV;lightningMode=true"/>
+          </connectionUrls>
+        </connection>
+      </connections>
+    </connectionClass>
+    <connectionClass name="testmanager">
+      <connections>
+        <connection id="504abe66-21ec-4a71-85ba-cdf9a374ba29" name="CopadoDemo">
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="b5a14d3d-9583-449b-8bcd-6090b4977a1b" url="tm:projectName=CopadoProject;projectKey=COPADO;clientId={clientId};clientSecret={clientSecret};callbackUrl={callbackUrl};environment=PROD_DEV;accessToken={accessToken};refreshToken={refreshToken};apiLoginUrl=https://provardemo.my.salesforce.com;identityServiceUrl=https://login.salesforce.com/id/00D0N000000hpkBUAQ/0050N0000075LI9QAM;sendScreenshots=true;reportMetadataCoverage=true;authenticationType=OAUTH_MANAGED;jwtCertType=JKS"/>
+          </connectionUrls>
+        </connection>
+      </connections>
+    </connectionClass>
+  </connectionClasses>
+  <browserConfigurations>
+    <browserConfiguration adjustBrowserWidthForChromeIde="true" browserHeight="0" browserWidth="0" name="Full Screen">
+      <summary>Full screen with Test Builder adjustment</summary>
+    </browserConfiguration>
+    <browserConfiguration browserHeight="768" browserHeightType="Pixels" browserWidth="1024" browserWidthType="Pixels" name="1024x768">
+      <summary>Fixed 1024x768</summary>
+    </browserConfiguration>
+    <browserConfiguration browserHeight="800" browserHeightType="Pixels" browserWidth="1280" browserWidthType="Pixels" name="1280x800">
+      <summary>Fixed 1280x800</summary>
+    </browserConfiguration>
+    <browserConfiguration browserHeight="768" browserHeightType="Pixels" browserWidth="1366" browserWidthType="Pixels" name="1366x768">
+      <summary>Fixed 1366x768</summary>
+    </browserConfiguration>
+    <browserConfiguration browserHeight="1080" browserHeightType="Pixels" browserWidth="1920" browserWidthType="Pixels" name="1920x1080">
+      <summary>Fixed 1920x1080</summary>
+    </browserConfiguration>
+  </browserConfigurations>
+  <browserApplications>
+    <browserApplication connectionTypes="sf" name="Salesforce1">
+      <properties>
+        <browserPlatformProperty name="browserName" platform="IOS" type="DesiredCapability" value="Safari"/>
+        <browserPlatformProperty name="browserName" platform="ANDROID" type="DesiredCapability" value="Chrome"/>
+      </properties>
+    </browserApplication>
+    <browserApplication connectionTypes="sf" name="ServiceMax FSA">
+      <properties>
+        <browserPlatformProperty name="bundleId" platform="IOS" type="DesiredCapability" value="com.servicemaxinc.svmxfieldserviceapp"/>
+        <browserPlatformProperty name="app" platform="DESKTOP" type="DesiredCapability" value="C:\\Program Files\\ServiceMax\\ServiceMax Field Service\\Laptop Mobile.exe"/>
+      </properties>
+    </browserApplication>
+  </browserApplications>
+  <browserProviders>
+    <browserProvider name="Desktop" type="SeleniumLocal">
+      <devices>
+        <browserProviderDevice name="Full Screen">
+          <properties>
+            <browserPlatformProperty name="summary" value="Full screen with Test Builder adjustment"/>
+            <browserPlatformProperty name="browserHeightType" value="Full"/>
+            <browserPlatformProperty name="browserWidthType" value="Full"/>
+            <browserPlatformProperty name="adjustBrowserWidthForChromeIde" value="true"/>
+          </properties>
+        </browserProviderDevice>
+        <browserProviderDevice name="1024x768">
+          <properties>
+            <browserPlatformProperty name="summary" value="Fixed 1024x768"/>
+            <browserPlatformProperty name="browserHeightType" value="Pixels"/>
+            <browserPlatformProperty name="browserWidthType" value="Pixels"/>
+            <browserPlatformProperty name="browserHeight" value="768"/>
+            <browserPlatformProperty name="browserWidth" value="1024"/>
+          </properties>
+        </browserProviderDevice>
+        <browserProviderDevice name="1280x800">
+          <properties>
+            <browserPlatformProperty name="summary" value="Fixed 1280x800"/>
+            <browserPlatformProperty name="browserHeightType" value="Pixels"/>
+            <browserPlatformProperty name="browserWidthType" value="Pixels"/>
+            <browserPlatformProperty name="browserHeight" value="800"/>
+            <browserPlatformProperty name="browserWidth" value="1280"/>
+          </properties>
+        </browserProviderDevice>
+        <browserProviderDevice name="1366x768">
+          <properties>
+            <browserPlatformProperty name="summary" value="Fixed 1366x768"/>
+            <browserPlatformProperty name="browserHeightType" value="Pixels"/>
+            <browserPlatformProperty name="browserWidthType" value="Pixels"/>
+            <browserPlatformProperty name="browserHeight" value="768"/>
+            <browserPlatformProperty name="browserWidth" value="1366"/>
+          </properties>
+        </browserProviderDevice>
+        <browserProviderDevice name="1920x1080">
+          <properties>
+            <browserPlatformProperty name="summary" value="Fixed 1920x1080"/>
+            <browserPlatformProperty name="browserHeightType" value="Pixels"/>
+            <browserPlatformProperty name="browserWidthType" value="Pixels"/>
+            <browserPlatformProperty name="browserHeight" value="1080"/>
+            <browserPlatformProperty name="browserWidth" value="1920"/>
+          </properties>
+        </browserProviderDevice>
+      </devices>
+    </browserProvider>
+  </browserProviders>
+  <associations>
+    <association assocationType="TM.TEST_PROJECT" connectionId="504abe66-21ec-4a71-85ba-cdf9a374ba29" entityKey="a0QKA000000wl0E2AQ"/>
+  </associations>
+</testProject>
