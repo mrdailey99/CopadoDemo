@@ -91,6 +91,6 @@
     </planFeature>
   </planFeatures>
   <associations>
-    <association assocationType="TM.TEST_PLAN" connectionId="504abe66-21ec-4a71-85ba-cdf9a374ba29" entityKey="a0PKA00000114IF2AY"/>
+    <association assocationType="TM.TEST_PLAN" connectionId="504abe66-21ec-4a71-85ba-cdf9a374ba29" entityKey="a0tTA00000IZmPBYA1"/>
   </associations>
 </testPlan>
