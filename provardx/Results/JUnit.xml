@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CopadoProject/tests" tests="1" failures="0" skipped="0" hostname="DESKTOP-5FJ2AOD" time="91.453" timestamp="Tue Sep 02 16:23:23 CDT 2025">
+	<properties>
+		<property name="testEnvironment" value="DEV"/>
+		<property name="pluginOutputLevel" value="WARNING"/>
+		<property name="projectPath" value="C:/Users/mrdai/Provar/workspace-CopadoProject/CopadoProject"/>
+		<property name="salesforceMetadataCache" value="../.provarCaches"/>
+		<property name="resultsPathDisposition" value="Increment"/>
+		<property name="testOutputLevel" value="BASIC"/>
+		<property name="webBrowserType" value="Chrome"/>
+		<property name="resultsPath" value="C:/Users/mrdai/Provar/workspace-CopadoProject/CopadoProject/provardx/Results"/>
+		<property name="webBrowserConfiguration" value="Full Screen"/>
+		<property name="projectCachePath" value="../.provarCaches"/>
+	</properties>
+	<testcase classname="tests/C:\Users\mrdai\Provar\workspace-CopadoProject\CopadoProject" name="Create Property and Validate.testcase" time="76.156">
+	</testcase>
+</testsuite>
