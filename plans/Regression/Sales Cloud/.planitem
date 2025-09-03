@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testPlan guid="3a96f781-2484-445e-8fcd-5f9a7ac54016">
+<testPlan guid="b2f1460b-7c5b-4a7b-89cf-f334620d9cb8">
   <planSettings/>
   <planFeatures>
     <planFeature connectionId="504abe66-21ec-4a71-85ba-cdf9a374ba29" enabled="true" name="TEST_MANAGER" type="REPORTING">
@@ -7,6 +7,6 @@
     </planFeature>
   </planFeatures>
   <associations>
-    <association assocationType="TM.TEST_SUITE" connectionId="504abe66-21ec-4a71-85ba-cdf9a374ba29" entityKey="a10TA00000sdOBTYA2"/>
+    <association assocationType="TM.TEST_SUITE" connectionId="504abe66-21ec-4a71-85ba-cdf9a374ba29" entityKey="a10TA00000sdOBUYA2"/>
   </associations>
 </testPlan>

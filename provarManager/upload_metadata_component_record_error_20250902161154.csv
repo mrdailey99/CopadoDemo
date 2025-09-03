@@ -1,0 +1,4 @@
+"sf__Id","sf__Error",provar__Developer_Name__c,provar__Metadata_Type__c,provar__Number_of_Test_Cases__c,provar__Namespace_Prefix__c,provar__External_Id__c,Name,Id
+"","INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST:Metadata Type: bad value for restricted picklist field: CustomObject:provar__Metadata_Type__c --","Property__c","CustomObject","","","CustomObject.Property__c","Property__c",""
+"","INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST:Metadata Type: bad value for restricted picklist field: CustomApplication:provar__Metadata_Type__c --","Dreamhouse","CustomApplication","","","CustomApplication.Dreamhouse","Dreamhouse",""
+"","INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST:Metadata Type: bad value for restricted picklist field: CustomField:provar__Metadata_Type__c --","Property__c.Name","CustomField","","","CustomField.Property__c.Name","Name",""

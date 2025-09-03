@@ -1,0 +1,49 @@
+{
+    "provarHome": "C:/Program Files/ProvarV3/",
+    "projectPath": "C:/Users/mrdai/Provar/workspace-CopadoProject/CopadoProject",
+    "resultsPath": "C:/Users/mrdai/Provar/workspace-CopadoProject/CopadoProject/provardx/Results",
+    "smtpPath": "",
+    "resultsPathDisposition": "Increment",
+    "testOutputLevel": "BASIC",
+    "pluginOutputlevel": "WARNING",
+    "stopOnError": false,
+    "lightningMode": true,
+    "connectionRefreshType": "Reload",
+    "metadata": {
+        "metadataLevel": "Reuse",
+        "cachePath": "../.provarCaches"
+    },
+    "environment": {
+        "testEnvironment": "DEV",
+        "webBrowser": "Chrome",
+        "webBrowserConfig": "Full Screen",
+        "webBrowserProviderName": "Desktop",
+        "webBrowserDeviceName": "Full Screen"
+    },
+    "testprojectSecrets": "Testing123",
+    "testplanFeatures": [
+        {
+            "name": "PDF",
+            "type": "OUTPUT",
+            "enabled": "true"
+        },
+        {
+            "name": "PIECHART",
+            "type": "OUTPUT",
+            "enabled": "true"
+        },
+        {
+            "name": "TEST_MANAGER",
+            "type": "REPORTING",
+            "enabled": "true"
+        },
+        {
+            "name": "EMAIL",
+            "type": "NOTIFICATION",
+            "enabled": "false"
+        }
+    ],
+    "testPlan": [
+        "/Regression"
+    ]
+}
