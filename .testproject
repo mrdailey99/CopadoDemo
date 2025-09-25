@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testProject guid="a5cc8711-5226-43ee-ad6a-d91e13e4d7c6" secretsEncryption="JASYPT" selectedBrowserProviderDeviceName="Full Screen" selectedBrowserProviderName="Desktop" selectedEnvironment="DEV" selectedEnvironmentGuid="b0991dc7-edac-4b8c-94f6-be73c1bcd617">
-  <title>/CopadoProject/.testproject</title>
+<testProject guid="a5cc8711-5226-43ee-ad6a-d91e13e4d7c6" secretsEncryption="JASYPT" selectedBrowserProviderDeviceName="Full Screen" selectedBrowserProviderName="Desktop" selectedEnvironment="QA" selectedEnvironmentGuid="16c4c816-8643-4133-ae9d-adf2abf23e2e">
+  <title>/GearsetProject/.testproject</title>
   <configPath>config</configPath>
   <testsPath>tests</testsPath>
   <testPlansPath>plans</testPlansPath>
