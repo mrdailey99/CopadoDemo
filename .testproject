@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <testProject guid="a5cc8711-5226-43ee-ad6a-d91e13e4d7c6" secretsEncryption="JASYPT" selectedBrowserProviderDeviceName="Full Screen" selectedBrowserProviderName="Desktop" selectedEnvironment="QA" selectedEnvironmentGuid="16c4c816-8643-4133-ae9d-adf2abf23e2e">
-  <title>/GearsetProject/.testproject</title>
+  <title>/GridTest/.testproject</title>
   <configPath>config</configPath>
   <testsPath>tests</testsPath>
   <testPlansPath>plans</testPlansPath>
@@ -11,17 +11,17 @@
   <environments>
     <environment guid="b0991dc7-edac-4b8c-94f6-be73c1bcd617" name="DEV">
       <associations>
-        <association assocationType="TM.ENVIRONMENT" connectionId="16b9db93-4756-4aa5-930b-90622413bd4f" entityKey="a0BKA000000Taqr2AC"/>
+        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a09Pt00000DfWfZIAV"/>
       </associations>
     </environment>
     <environment guid="16c4c816-8643-4133-ae9d-adf2abf23e2e" name="QA">
       <associations>
-        <association assocationType="TM.ENVIRONMENT" connectionId="16b9db93-4756-4aa5-930b-90622413bd4f" entityKey="a0B5p00000xzvBGEAY"/>
+        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a09Pt00000DKhqwIAD"/>
       </associations>
     </environment>
     <environment guid="c19d756c-7710-484b-ae82-30494b50bdbc" name="Production">
       <associations>
-        <association assocationType="TM.ENVIRONMENT" connectionId="16b9db93-4756-4aa5-930b-90622413bd4f" entityKey="a0B5p00000xzvBHEAY"/>
+        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a09Pt00000DKhqxIAD"/>
       </associations>
     </environment>
   </environments>
@@ -40,9 +40,9 @@
     </connectionClass>
     <connectionClass name="testmanager">
       <connections>
-        <connection id="16b9db93-4756-4aa5-930b-90622413bd4f" name="PM">
+        <connection id="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" name="PM">
           <connectionUrls>
-            <connectionUrl secureStorageNodeId="fed83421-13a7-46e2-92e8-19955726c667" url="tm:projectName=GearsetProject;projectKey=Gearset;clientId={clientId};clientSecret={clientSecret};callbackUrl={callbackUrl};environment=PROD_DEV;accessToken={accessToken};refreshToken={refreshToken};apiLoginUrl=https://provardemo.my.salesforce.com;identityServiceUrl=https://login.salesforce.com/id/00D0N000000hpkBUAQ/0050N0000075LI9QAM;sendScreenshots=true;reportMetadataCoverage=true;authenticationType=OAUTH_MANAGED;jwtCertType=JKS"/>
+            <connectionUrl secureStorageNodeId="0018a445-ea9b-4bf8-83d3-57875c61aa3d" url="tm:projectName=GridTest;projectKey=GRID;clientId={clientId};clientSecret={clientSecret};callbackUrl={callbackUrl};environment=SANDBOX;accessToken={accessToken};refreshToken={refreshToken};apiLoginUrl=https://java-customer-3959-dev-ed.scratch.my.salesforce.com;identityServiceUrl=https://test.salesforce.com/id/00DPt000008UFcvMAG/005Pt00000B9nEZIAZ;sendScreenshots=true;reportMetadataCoverage=true;authenticationType=OAUTH_MANAGED;jwtCertType=JKS"/>
           </connectionUrls>
         </connection>
       </connections>
@@ -130,6 +130,6 @@
     </browserProvider>
   </browserProviders>
   <associations>
-    <association assocationType="TM.TEST_PROJECT" connectionId="16b9db93-4756-4aa5-930b-90622413bd4f" entityKey="a0QKA000000wqo62AA"/>
+    <association assocationType="TM.TEST_PROJECT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0uPt000002vhYXIAY"/>
   </associations>
 </testProject>

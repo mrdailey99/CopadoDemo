@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <testPlan guid="3a96f781-2484-445e-8fcd-5f9a7ac54016">
   <planSettings/>
-  <planFeatures>
-    <planFeature connectionId="16b9db93-4756-4aa5-930b-90622413bd4f" enabled="true" name="TEST_MANAGER" type="REPORTING">
-      <settings mutable="Mutable"/>
-    </planFeature>
-  </planFeatures>
+  <planFeatures/>
   <associations>
-    <association assocationType="TM.TEST_SUITE" connectionId="16b9db93-4756-4aa5-930b-90622413bd4f" entityKey="a0VKA000000kH7d2AE"/>
+    <association assocationType="TM.TEST_SUITE" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a10Pt00001FRJQPIA5"/>
   </associations>
 </testPlan>
