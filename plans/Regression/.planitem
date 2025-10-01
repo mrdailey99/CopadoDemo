@@ -86,11 +86,11 @@
         </namedValue>
       </settings>
     </planFeature>
-    <planFeature connectionId="504abe66-21ec-4a71-85ba-cdf9a374ba29" enabled="true" name="TEST_MANAGER" type="REPORTING">
+    <planFeature connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" enabled="true" name="TEST_MANAGER" type="REPORTING">
       <settings mutable="Mutable"/>
     </planFeature>
   </planFeatures>
   <associations>
-    <association assocationType="TM.TEST_PLAN" connectionId="504abe66-21ec-4a71-85ba-cdf9a374ba29" entityKey="a0tTA00000IZmPBYA1"/>
+    <association assocationType="TM.TEST_PLAN" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0PKA00000117Pw2AI"/>
   </associations>
 </testPlan>
