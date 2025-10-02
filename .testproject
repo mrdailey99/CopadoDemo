@@ -11,22 +11,22 @@
   <environments>
     <environment guid="b0991dc7-edac-4b8c-94f6-be73c1bcd617" name="DEV">
       <associations>
-        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a09Qz00000CdpnqIAB"/>
+        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0nAe000002DRCaIAO"/>
       </associations>
     </environment>
     <environment guid="16c4c816-8643-4133-ae9d-adf2abf23e2e" name="QA">
       <associations>
-        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a09Qz00000CdpntIAB"/>
+        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0nAe000002DRCXIA4"/>
       </associations>
     </environment>
     <environment guid="c19d756c-7710-484b-ae82-30494b50bdbc" name="Production">
       <associations>
-        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a09Qz00000CdpnrIAB"/>
+        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0nAe000002DRCYIA4"/>
       </associations>
     </environment>
     <environment guid="ff9173f6-0afd-4538-ba9b-edbb9c9513fc" name="UAT">
       <associations>
-        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a09Qz00000CdpnsIAB"/>
+        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0nAe000002DRCZIA4"/>
       </associations>
     </environment>
   </environments>
