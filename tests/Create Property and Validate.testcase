@@ -4,7 +4,7 @@
   <steps>
     <apiCall apiId="com.provar.plugins.forcedotcom.core.testapis.ApexConnect" guid="946d58c3-2326-4a00-9464-8a4d9c20f98e" name="ApexConnect" testItemId="1" title="Salesforce Connect: Admin (Test)">
       <associations>
-        <association assocationType="TM.TEST_STEP" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0TKA000000wm0E2AQ"/>
+        <association assocationType="TM.TEST_STEP" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0yQz000002gYaPIAU"/>
       </associations>
       <arguments>
         <argument id="connectionName">
@@ -53,7 +53,7 @@
     </apiCall>
     <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" guid="280534ac-53fc-407a-b38d-a1206b179c99" name="SetValues" testItemId="14" title="Set Values: PropName">
       <associations>
-        <association assocationType="TM.TEST_STEP" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0TKA000000wm0F2AQ"/>
+        <association assocationType="TM.TEST_STEP" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0yQz000002gYaQIAU"/>
       </associations>
       <arguments>
         <argument id="values">
@@ -84,7 +84,7 @@
     </apiCall>
     <apiCall apiId="com.provar.plugins.forcedotcom.core.testapis.ApexCreateObject" guid="cfc3e9f1-517b-48c9-a8bd-a8cbfd855304" name="ApexCreateObject" parameterGeneratorUri="command:com.provar.plugins.forcedotcom.ui.commands.CreateCustomObjectTestStepCommand" testItemId="9" title="Create Object: Property__c=&gt;PropertyId">
       <associations>
-        <association assocationType="TM.TEST_STEP" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0TKA000000wm0G2AQ"/>
+        <association assocationType="TM.TEST_STEP" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0yQz000002gYaRIAU"/>
       </associations>
       <arguments>
         <argument id="objectType">
@@ -116,7 +116,7 @@
     </apiCall>
     <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiWithScreen" guid="7e16febd-6c1c-48b4-87c6-9d14df9c21d6" name="UiWithScreen" testItemId="10" title="On SF Property View screen">
       <associations>
-        <association assocationType="TM.TEST_STEP" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0TKA000000wm0H2AQ"/>
+        <association assocationType="TM.TEST_STEP" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0yQz000002gYaSIAU"/>
       </associations>
       <arguments>
         <argument id="uiConnectionName">
@@ -156,7 +156,7 @@
             <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiAssert" guid="0fa7da2b-1bd3-46dc-ac53-d875a8578793" isTitleUpdated="true" name="UiAssert" testItemId="13" title="UI Assert: Property Name">
               <tags/>
               <associations>
-                <association assocationType="TM.TEST_STEP" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0TKA000000wm0I2AQ"/>
+                <association assocationType="TM.TEST_STEP" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0yQz000002gYaTIAU"/>
               </associations>
               <arguments>
                 <argument id="fieldAssertions">
@@ -211,7 +211,7 @@
     </apiCall>
   </steps>
   <associations>
-    <association assocationType="TM.TEST_CASE" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0JKA000001Q9Fh2AK" lastUploadedDateTime="2025-10-01T11:50:02Z">
+    <association assocationType="TM.TEST_CASE" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0eQz000004UhA5IAK" lastUploadedDateTime="2025-10-02T02:54:59Z">
       <metadataCoverage>
         <stepMetadataCoverage linkedId="1" value="uiApplicationName=Dreamhouse"/>
         <stepMetadataCoverage linkedId="9" value="object=Property__c&amp;fields=Name"/>

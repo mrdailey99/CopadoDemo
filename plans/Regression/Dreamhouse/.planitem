@@ -7,6 +7,6 @@
     </planFeature>
   </planFeatures>
   <associations>
-    <association assocationType="TM.TEST_SUITE" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0VKA000000kH7m2AE"/>
+    <association assocationType="TM.TEST_SUITE" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a10Qz00001MTBW6IAP"/>
   </associations>
 </testPlan>
