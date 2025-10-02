@@ -48,7 +48,7 @@
       <connections>
         <connection id="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" name="PM">
           <connectionUrls>
-            <connectionUrl secureStorageNodeId="0018a445-ea9b-4bf8-83d3-57875c61aa3d" url="tm:projectName=GridTest;projectKey=GRID;clientId={clientId};clientSecret={clientSecret};callbackUrl={callbackUrl};environment=SANDBOX;accessToken={accessToken};refreshToken={refreshToken};apiLoginUrl=https://app-connect-3569-dev-ed.scratch.my.salesforce.com;identityServiceUrl=https://test.salesforce.com/id/00DQz000008CGsZMAW/005Qz00000C5NebIAF;sendScreenshots=true;reportMetadataCoverage=true;authenticationType=OAUTH_MANAGED;jwtCertType=JKS"/>
+            <connectionUrl secureStorageNodeId="0018a445-ea9b-4bf8-83d3-57875c61aa3d" url="tm:projectName=GridTest;projectKey=GRID;clientId={clientId};clientSecret={clientSecret};callbackUrl={callbackUrl};environment=SANDBOX;accessToken={accessToken};refreshToken={refreshToken};apiLoginUrl=https://velocity-force-5672-dev-ed.scratch.my.salesforce.com;identityServiceUrl=https://test.salesforce.com/id/00DAe000009RLTSMA4/005Ae00000ErXbNIAV;sendScreenshots=true;reportMetadataCoverage=true;authenticationType=OAUTH_MANAGED;jwtCertType=JKS"/>
           </connectionUrls>
         </connection>
       </connections>
@@ -138,6 +138,6 @@
     </browserProvider>
   </browserProviders>
   <associations>
-    <association assocationType="TM.TEST_PROJECT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0uQz000002y4PNIAY"/>
+    <association assocationType="TM.TEST_PROJECT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a1YAe000002l60nMAA"/>
   </associations>
 </testProject>
