@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testProject guid="a5cc8711-5226-43ee-ad6a-d91e13e4d7c6" secretsEncryption="JASYPT" selectedBrowserProviderDeviceName="Full Screen" selectedBrowserProviderName="Desktop" selectedEnvironment="QA" selectedEnvironmentGuid="16c4c816-8643-4133-ae9d-adf2abf23e2e">
-  <title>/GridTest/.testproject</title>
+<testProject guid="a5cc8711-5226-43ee-ad6a-d91e13e4d7c6" secretsEncryption="JASYPT" selectedBrowserProviderDeviceName="Full Screen" selectedBrowserProviderName="Desktop" selectedEnvironment="Production" selectedEnvironmentGuid="c19d756c-7710-484b-ae82-30494b50bdbc">
+  <title>/GridProject/.testproject</title>
   <configPath>config</configPath>
   <testsPath>tests</testsPath>
   <testPlansPath>plans</testPlansPath>
@@ -11,22 +11,22 @@
   <environments>
     <environment guid="b0991dc7-edac-4b8c-94f6-be73c1bcd617" name="DEV">
       <associations>
-        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a09Pt00000DqD8BIAV"/>
+        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a09Pu00000JXzeTIAT"/>
       </associations>
     </environment>
     <environment guid="16c4c816-8643-4133-ae9d-adf2abf23e2e" name="QA">
       <associations>
-        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a09Pt00000DqD8AIAV"/>
+        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a09Pu00000JPGgAIAX"/>
       </associations>
     </environment>
     <environment guid="c19d756c-7710-484b-ae82-30494b50bdbc" name="Production">
       <associations>
-        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a09Pt00000DqD89IAF"/>
+        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a09Pu00000JPGgBIAX"/>
       </associations>
     </environment>
     <environment guid="ff9173f6-0afd-4538-ba9b-edbb9c9513fc" name="UAT">
       <associations>
-        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a09Pt00000DqD8CIAV"/>
+        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a09Pu00000JXzeUIAT"/>
       </associations>
     </environment>
   </environments>
@@ -48,7 +48,7 @@
       <connections>
         <connection id="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" name="PM">
           <connectionUrls>
-            <connectionUrl secureStorageNodeId="0018a445-ea9b-4bf8-83d3-57875c61aa3d" url="tm:projectName=GridTest;projectKey=GRID;clientId={clientId};clientSecret={clientSecret};callbackUrl={callbackUrl};environment=SANDBOX;accessToken={accessToken};refreshToken={refreshToken};apiLoginUrl=https://customization-dream-688-dev-ed.scratch.my.salesforce.com;identityServiceUrl=https://test.salesforce.com/id/00DPt000008pK3JMAU/005Pt00000BfIWNIA3;sendScreenshots=true;reportMetadataCoverage=true;authenticationType=OAUTH_MANAGED;jwtCertType=JKS"/>
+            <connectionUrl secureStorageNodeId="0018a445-ea9b-4bf8-83d3-57875c61aa3d" url="tm:projectName=GridTest;projectKey=GRID;clientId={clientId};clientSecret={clientSecret};callbackUrl={callbackUrl};environment=SANDBOX;accessToken={accessToken};refreshToken={refreshToken};apiLoginUrl=https://ability-flow-843-dev-ed.scratch.my.salesforce.com;identityServiceUrl=https://test.salesforce.com/id/00DPu00000900sTMAQ/005Pu00000KmxYDIAZ;sendScreenshots=true;reportMetadataCoverage=true;authenticationType=OAUTH_MANAGED;jwtCertType=JKS"/>
           </connectionUrls>
         </connection>
       </connections>
@@ -138,6 +138,6 @@
     </browserProvider>
   </browserProviders>
   <associations>
-    <association assocationType="TM.TEST_PROJECT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0uPt000002z7rRIAQ"/>
+    <association assocationType="TM.TEST_PROJECT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0vPu0000070RiXIAU"/>
   </associations>
 </testProject>
