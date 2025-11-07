@@ -195,5 +195,14 @@
       </generatedParameters>
     </apiCall>
   </steps>
-  <associations/>
+  <associations>
+    <association assocationType="TM.TEST_CASE" connectionId="3e29e081-06b5-46b1-84a6-3f8141da731c" entityKey="a0gQz000001clRxIAI">
+      <metadataCoverage>
+        <stepMetadataCoverage linkedId="1" value="uiApplicationName=Dreamhouse"/>
+        <stepMetadataCoverage linkedId="9" value="object=Property__c&amp;fields=Name"/>
+        <stepMetadataCoverage linkedId="10" value="object=Property__c"/>
+        <stepMetadataCoverage linkedId="13" value="object=Property__c&amp;field=Name"/>
+      </metadataCoverage>
+    </association>
+  </associations>
 </testCase>
