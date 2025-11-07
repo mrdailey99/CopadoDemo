@@ -2,11 +2,11 @@
 <testPlan guid="3a96f781-2484-445e-8fcd-5f9a7ac54016">
   <planSettings/>
   <planFeatures>
-    <planFeature connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" enabled="true" name="TEST_MANAGER" type="REPORTING">
+    <planFeature connectionId="3e29e081-06b5-46b1-84a6-3f8141da731c" enabled="true" name="TEST_MANAGER" type="REPORTING">
       <settings mutable="Mutable"/>
     </planFeature>
   </planFeatures>
   <associations>
-    <association assocationType="TM.TEST_SUITE" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0VKA000000kH7m2AE"/>
+    <association assocationType="TM.TEST_SUITE" connectionId="3e29e081-06b5-46b1-84a6-3f8141da731c" entityKey="a12Qz000003uQULIA2"/>
   </associations>
 </testPlan>

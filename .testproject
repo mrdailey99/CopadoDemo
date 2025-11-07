@@ -11,22 +11,22 @@
   <environments>
     <environment guid="b0991dc7-edac-4b8c-94f6-be73c1bcd617" name="DEV">
       <associations>
-        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0BKA000000Taqr2AC"/>
+        <association assocationType="TM.ENVIRONMENT" connectionId="3e29e081-06b5-46b1-84a6-3f8141da731c" entityKey="a09Qz00000DUUzwIAH"/>
       </associations>
     </environment>
     <environment guid="16c4c816-8643-4133-ae9d-adf2abf23e2e" name="QA">
       <associations>
-        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0B5p00000xzvBGEAY"/>
+        <association assocationType="TM.ENVIRONMENT" connectionId="3e29e081-06b5-46b1-84a6-3f8141da731c" entityKey="a09Qz00000DOImpIAH"/>
       </associations>
     </environment>
     <environment guid="c19d756c-7710-484b-ae82-30494b50bdbc" name="Production">
       <associations>
-        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0B5p00000xzvBHEAY"/>
+        <association assocationType="TM.ENVIRONMENT" connectionId="3e29e081-06b5-46b1-84a6-3f8141da731c" entityKey="a09Qz00000DO8f2IAD"/>
       </associations>
     </environment>
     <environment guid="ff9173f6-0afd-4538-ba9b-edbb9c9513fc" name="UAT">
       <associations>
-        <association assocationType="TM.ENVIRONMENT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0B5p000015S798EAC"/>
+        <association assocationType="TM.ENVIRONMENT" connectionId="3e29e081-06b5-46b1-84a6-3f8141da731c" entityKey="a09Qz00000DOImqIAH"/>
       </associations>
     </environment>
   </environments>
@@ -46,9 +46,9 @@
     </connectionClass>
     <connectionClass name="testmanager">
       <connections>
-        <connection id="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" name="ProvarQualityHub">
+        <connection id="3e29e081-06b5-46b1-84a6-3f8141da731c" name="QualityHub">
           <connectionUrls>
-            <connectionUrl secureStorageNodeId="0018a445-ea9b-4bf8-83d3-57875c61aa3d" url="tm:projectName=GridTest;projectKey=GRID;clientId={clientId};clientSecret={clientSecret};callbackUrl={callbackUrl};environment=PROD_DEV;accessToken={accessToken};refreshToken={refreshToken};apiLoginUrl=https://provardemo.my.salesforce.com;identityServiceUrl=https://login.salesforce.com/id/00D0N000000hpkBUAQ/0050N0000075LI9QAM;sendScreenshots=true;reportMetadataCoverage=true;authenticationType=OAUTH_MANAGED;jwtCertType=JKS"/>
+            <connectionUrl secureStorageNodeId="e096a04f-d173-42ee-91cb-4424b544365f" url="tm:projectName=Quality Hub Demo Project;projectKey=QHUBDMO;clientId={clientId};clientSecret={clientSecret};callbackUrl={callbackUrl};environment=SANDBOX;accessToken={accessToken};refreshToken={refreshToken};apiLoginUrl=https://speed-energy-8475-dev-ed.scratch.my.salesforce.com;identityServiceUrl=https://test.salesforce.com/id/00DQz000008Z7oRMAS/005Qz00000CVgC9IAL;sendScreenshots=true;reportMetadataCoverage=true;authenticationType=OAUTH_MANAGED;jwtCertType=JKS"/>
           </connectionUrls>
         </connection>
       </connections>
@@ -138,6 +138,6 @@
     </browserProvider>
   </browserProviders>
   <associations>
-    <association assocationType="TM.TEST_PROJECT" connectionId="0a8a2e23-8730-49aa-ab69-c211bbfa4dd2" entityKey="a0QKA000000wrHX2AY"/>
+    <association assocationType="TM.TEST_PROJECT" connectionId="3e29e081-06b5-46b1-84a6-3f8141da731c" entityKey="a0wQz000002pAH7IAM"/>
   </associations>
 </testProject>
