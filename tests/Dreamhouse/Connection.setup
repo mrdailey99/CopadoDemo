@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testCase guid="27828ce2-8ae6-4dac-9856-5b4a6b8fdfef" id="1" registryId="27828ce2-8ae6-4dac-9856-5b4a6b8fdfef">
+  <summary/>
+  <steps>
+    <apiCall apiId="com.provar.plugins.forcedotcom.core.testapis.ApexConnect" guid="2cd4a07c-9ab4-413e-acc0-719d6678bc7d" name="ApexConnect" testItemId="1" title="Salesforce Connect: Admin (Global)">
+      <associations>
+<<<<<<< HEAD
+        <association assocationType="TM.TEST_STEP" connectionId="e5332f76-d08d-4d9e-b587-c54ac3bf10f8" entityKey="a0bJ7000000sj1dIAA"/>
+=======
+        <association assocationType="TM.TEST_STEP" connectionId="184f82bb-0070-48e6-abe8-cc4737b0f70a" entityKey="a1YPt00000191vcMAA"/>
+>>>>>>> e70f2d188301e5c3c28af124c12f564889890060
+      </associations>
+      <arguments>
+        <argument id="connectionName">
+          <value class="value" valueClass="string">Admin</value>
+        </argument>
+        <argument id="resultName">
+          <value class="value" valueClass="string">Admin</value>
+        </argument>
+        <argument id="resultScope">
+          <value class="value" valueClass="string">Global</value>
+        </argument>
+        <argument id="uiApplicationName">
+          <value class="value" valueClass="string">Dreamhouse</value>
+        </argument>
+        <argument id="quickUiLogin">
+          <value class="value" valueClass="boolean">true</value>
+        </argument>
+        <argument id="closeAllPrimaryTabs">
+          <value class="value" valueClass="boolean">true</value>
+        </argument>
+        <argument id="reuseConnectionName"/>
+        <argument id="alreadyOpenBehaviour">
+          <value class="value" valueClass="string">Fail</value>
+        </argument>
+        <argument id="privateBrowsingMode"/>
+        <argument id="enableObjectIdLogging">
+          <value class="value" valueClass="boolean">true</value>
+        </argument>
+        <argument id="autoCleanup"/>
+        <argument id="cleanupConnectionName"/>
+        <argument id="logFileLocation"/>
+        <argument id="username"/>
+        <argument id="password"/>
+        <argument id="securityToken"/>
+        <argument id="environment"/>
+        <argument id="lightningMode">
+          <value class="value" valueClass="string">default</value>
+        </argument>
+        <argument id="webBrowser"/>
+        <argument id="connectionId">
+          <value class="value" valueClass="id">cc031152-9a59-48a8-a529-bb4be1d2ca15</value>
+        </argument>
+      </arguments>
+    </apiCall>
+  </steps>
+  <tags/>
+  <associations>
+<<<<<<< HEAD
+    <association assocationType="TM.TEST_CASE" connectionId="e5332f76-d08d-4d9e-b587-c54ac3bf10f8" entityKey="a0R8d000007xsXVEAY" lastUploadedDateTime="2025-03-25T20:48:21Z">
+=======
+    <association assocationType="TM.TEST_CASE" connectionId="184f82bb-0070-48e6-abe8-cc4737b0f70a" entityKey="a1HPt000000WWb4MAG" lastUploadedDateTime="2024-10-21T19:50:14Z">
+>>>>>>> e70f2d188301e5c3c28af124c12f564889890060
+      <metadataCoverage>
+        <stepMetadataCoverage linkedId="1" value="uiApplicationName=Dreamhouse"/>
+      </metadataCoverage>
+    </association>
+  </associations>
+</testCase>

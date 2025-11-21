@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testPlanInstance guid="a4c488a0-6566-4068-8d7d-58fd2749b27c" testCaseId="1b4416e2-9cc0-4278-ba6a-b4b8a4677495" testCasePath="tests/Create Property and Validate.testcase">
+<testPlanInstance guid="a4c488a0-6566-4068-8d7d-58fd2749b27c" testCaseId="1b4416e2-9cc0-4278-ba6a-b4b8a4677495" testCasePath="tests/Dreamhouse/Property/Create Property and Validate.testcase">
   <planSettings/>
   <planFeatures/>
   <associations>
